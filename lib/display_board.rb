@@ -1,6 +1,6 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+the_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 
 
@@ -23,14 +23,14 @@ def display_board(turn_1)
   puts " #{the_board[6]}  | #{the_board[7]}  | #{the_board[8]}  "
 end
 
-display_board(turn_1)
+display_board(the_board)
 
 
 
 
 
-turn_2 = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
-def display_board(turn_2)
+the_board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+def display_board(the_board)
   puts " #{the_board[0]}  | #{the_board[1]}  | #{the_board[2]}  "
   puts "___________"
   puts " #{the_board[3]}  | #{the_board[4]}  | #{the_board[5]}  "
@@ -38,30 +38,31 @@ def display_board(turn_2)
   puts " #{the_board[6]}  | #{the_board[7]}  | #{the_board[8]}  "
 end
 
-display_board(turn_2)
+display_board(the_board)
 
-turn_3 = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+the_board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def display_board(turn_3)
+def display_board(the_board)
   puts " #{the_board[0]}  | #{the_board[1]}  | #{the_board[2]}  "
   puts "___________"
   puts " #{the_board[3]}  | #{the_board[4]}  | #{the_board[5]}  "
   puts "___________"
   puts " #{the_board[6]}  | #{the_board[7]}  | #{the_board[8]}  "
 end
+display_board(the_board)
 
-turn_4 = ["O ", " ", " ", " ", "X ", " ", " ", " ", " "]
-def display_board(turn_4)
+the_board = ["O ", " ", " ", " ", "X ", " ", " ", " ", " "]
+def display_board(the_board)
   puts " #{the_board[0]}  | #{the_board[1]}  | #{the_board[2]}  "
   puts "___________"
   puts " #{the_board[3]}  | #{the_board[4]}  | #{the_board[5]}  "
   puts "___________"
   puts " #{the_board[6]}  | #{the_board[7]}  | #{the_board[8]}  "
 end
-display_board(turn_4)
+display_board(the_board)
 
 turn_5 = ["X ", "X ", "X ", " ", " ", " ", " ", " ", " "]
-def display_board(turn_4)
+def display_board(the_board)
   puts " #{the_board[0]}  | #{the_board[1]}  | #{the_board[2]}  "
   puts "___________"
   puts " #{the_board[3]}  | #{the_board[4]}  | #{the_board[5]}  "
@@ -69,45 +70,45 @@ def display_board(turn_4)
   puts " #{the_board[6]}  | #{the_board[7]}  | #{the_board[8]}  "
 end
 
-display_board(turn_5)
+display_board(the_board)
 
-turn_6 = [" ", " ", " ", " ", " ", " ", "O ", "O ", "O "]
+the_board = [" ", " ", " ", " ", " ", " ", "O ", "O ", "O "]
 
-def display_board(turn_6)
+def display_board(the_board)
   puts " #{the_board[0]}  | #{the_board[1]}  | #{the_board[2]}  "
   puts "___________"
   puts " #{the_board[3]}  | #{the_board[4]}  | #{the_board[5]}  "
   puts "___________"
   puts " #{the_board[6]}  | #{the_board[7]}  | #{the_board[8]}  "
 end
-display_board(turn_6)
+display_board(the_board)
 
 turn_7 = ["X ", " ", " ", " ", "X ", " ", " ", " ", "X "]
-def display_board(turn_7)
+def display_board(the_board)
   puts " #{the_board[0]}  | #{the_board[1]}  | #{the_board[2]}  "
   puts "___________"
   puts " #{the_board[3]}  | #{the_board[4]}  | #{the_board[5]}  "
   puts "___________"
   puts " #{the_board[6]}  | #{the_board[7]}  | #{the_board[8]}  "
 end
-display_board(turn_7)
+display_board(the_board)
 
-turn_8 = [" ", " ", "O ", " ", "O ", " ", "O ", " ", " "]
-def display_board(turn_7)
+the_board = [" ", " ", "O ", " ", "O ", " ", "O ", " ", " "]
+def display_board(the_board)
   puts " #{the_board[0]}  | #{the_board[1]}  | #{the_board[2]}  "
   puts "___________"
   puts " #{the_board[3]}  | #{the_board[4]}  | #{the_board[5]}  "
   puts "___________"
   puts " #{the_board[6]}  | #{the_board[7]}  | #{the_board[8]}  "
 end
-display_board(turn_8)
+display_board(the_board)
 
-turn_9 = ["X ", "X ", "X ", " ", " ", " ", " ", " ", " "]
-def display_board(turn_9)
+the_board = ["X ", "X ", "X ", "X ", "X ", "X ", " ", " ", " "]
+def display_board(the_board)
   puts " #{the_board[0]}  | #{the_board[1]}  | #{the_board[2]}  "
   puts "___________"
   puts " #{the_board[3]}  | #{the_board[4]}  | #{the_board[5]}  "
   puts "___________"
   puts " #{the_board[6]}  | #{the_board[7]}  | #{the_board[8]}  "
 end
- display_board(turn_9)
+ display_board(the_board)
